@@ -60,7 +60,7 @@ const Dashboard = () => {
                             <Carousel responsive={responsive}>
                                 {popularBooks.map((book) => {
                                     return (
-                                        <div className="card h-100" style={{ width: "18rem" }}>
+                                        <div className="card h-100" key={book._id} style={{ width: "18rem" }}>
                                             <img src={book.image} className="card-img-top card-image" alt="image" />
                                             <div className="card-body">
                                                 <h5 className="card-title">{book.title}</h5>

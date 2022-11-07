@@ -36,7 +36,7 @@ const SidebarLib = () => {
 
         <li className="menu-item">
           <a href="#" onClick={() => { navigate("/add-ebooks") }} className="menu-link menu-toggle">
-          <i class="fa-solid fa-plus"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <i className="fa-solid fa-plus"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <div>Add E-books</div>
           </a>
         </li>
