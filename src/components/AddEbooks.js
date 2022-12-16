@@ -47,7 +47,7 @@ const Ebooks = () => {
                                 stock: stock
                             };
 
-                            fetch("https://library-management1234.herokuapp.com/ebooks", {
+                            fetch("https://library-mgmt-backend.vercel.app/ebooks", {
                                 method: "POST",
                                 body: JSON.stringify(newEbook),
                                 headers: {

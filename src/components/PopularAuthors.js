@@ -32,7 +32,7 @@ const PopularAuthors = () => {
     };
 
     useEffect(() => {
-        fetch(`https://library-management1234.herokuapp.com/popular-authors`, {
+        fetch(`https://library-mgmt-backend.vercel.app/popular-authors`, {
             method: "GET",
         })
             .then((data) => data.json())

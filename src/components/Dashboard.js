@@ -41,7 +41,7 @@ const Dashboard = () => {
     };
 
     useEffect(() => {
-        fetch(`https://library-management1234.herokuapp.com/popular-books`, {
+        fetch(`https://library-mgmt-backend.vercel.app/popular-books`, {
             method: "GET",
         })
             .then((data) => data.json())

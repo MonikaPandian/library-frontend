@@ -10,7 +10,7 @@ const Ebooks = () => {
   const [ebooks, setEbooks] = useState([]);
 
   useEffect(() => {
-    fetch(`https://library-management1234.herokuapp.com/ebooks`, {
+    fetch(`https://library-mgmt-backend.vercel.app/ebooks`, {
       method: "GET",
     })
       .then((data) => data.json())
