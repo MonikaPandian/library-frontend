@@ -40,7 +40,7 @@ const SignUp = () => {
                                 password: password
                             }
                             console.log(newMember);
-                            fetch("https://library-management1234.herokuapp.com/members/signup", {
+                            fetch("https://library-mgmt-backend.vercel.app/members/signup", {
                                 method: "POST",
                                 body: JSON.stringify(newMember),
                                 headers: {
