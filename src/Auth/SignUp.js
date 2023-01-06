@@ -58,7 +58,7 @@ const SignUp = () => {
                                         window.alert("Username already taken")
                                     }
                                     else if (res.message === "Password pattern does not match") {
-                                        window.alert("password should contain atleast one uppercase, lowercase, numbers, and symbols")
+                                        window.alert("password should contain atleast one uppercase, lowercase, numbers, and symbols. Valid symbols are $, @, !, #, %")
                                     }
                                 });
                         }}>
